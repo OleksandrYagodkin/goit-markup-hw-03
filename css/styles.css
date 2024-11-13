@@ -106,7 +106,7 @@ body{
     margin-bottom: 8px;
     text-align: center;
     margin-bottom: 8px;
-    
+
 }
 .team-section{
     background-color: #F4F4FD;
@@ -138,6 +138,7 @@ color: #f4f4fd;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 img {
     display: block;
@@ -191,6 +192,7 @@ img {
 }
 .portfolio-section{
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-list{
     display: flex;
@@ -207,4 +209,11 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 
+}
+.footer{
+    padding: 100px 0;
+}
+.logo-in-footer{
+    display: inline-block;
+    margin-bottom: 16px;
 }
