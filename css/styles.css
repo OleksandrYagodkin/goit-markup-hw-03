@@ -18,6 +18,8 @@ body{
 }
 .nav-list{
     font-weight: 500;
+    display: flex;
+    gap: 40px;
 }
 .logo-header,
 .logo-footer{
@@ -28,11 +30,13 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .nav-link{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .contacts:hover,
@@ -48,6 +52,8 @@ body{
 
 .footer-contacts{
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 .contacts{
@@ -112,4 +118,24 @@ color: #f4f4fd;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+img {
+    display: block;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
 }
