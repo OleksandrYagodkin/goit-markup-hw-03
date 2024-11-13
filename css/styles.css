@@ -52,14 +52,16 @@ body{
 
 .footer-contacts{
     font-style: normal;
-    display: flex;
-    gap: 40px;
 }
 
 .contacts{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+.contacts-list{
+    display: flex;
+    gap: 40px;
 }
 .hero-section{
     background-color: #2e2f42;
