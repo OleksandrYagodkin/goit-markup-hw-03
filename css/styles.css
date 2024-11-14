@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
 body{
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
@@ -163,9 +170,11 @@ img {
 .features{
     padding: 120px 0;
 }
-.features-list{
+.features-list {
     display: flex;
     gap: 24px;
+    padding: 0;
+    flex-direction: row;
 }
 .visually-hidden {
     position: absolute;
@@ -179,7 +188,7 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.features-item {
+.features-item{
     flex-basis: calc((100% - 72px) / 4);
 }
 .team-list{
@@ -201,8 +210,7 @@ img {
     row-gap: 48px;
 }
 .portfolio-iteam{
-    width: calc((100% - 48px) / 3);
-
+    flex-basis: calc((100% - 48px) / 3);
 }
 .app-category{
     padding: 32px 16px;
